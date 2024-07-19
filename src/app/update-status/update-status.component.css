@@ -1,0 +1,40 @@
+.table {
+    width: 100%; /* Full-width */
+    border-collapse: collapse; /* Collapse borders */
+    margin: 25px 0; /* Add some space around the table */
+    font-size: 0.9em; /* Adjust font size */
+    min-width: 400px; /* Minimum width */
+    border-radius: 5px 5px 0 0; /* Rounded corners at the top of the table */
+    overflow: hidden; /* Ensures the border radius is applied */
+    box-shadow: 0 0 20px rgba(0,0,0,0.15); /* Add a shadow for depth */
+  }
+  .table thead tr {
+    background-color: #009879; /* Color for the header row */
+    color: #ffffff; /* White text color */
+    text-align: left; /* Align text to the left */
+  }
+  .table th,
+.table td {
+  padding: 12px 15px; /* Add spacing inside cells */
+}
+.table tbody tr {
+    border-bottom: 1px solid #dddddd; /* Add a bottom border to each row */
+  }
+  .table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3; /* Color every even row */
+  }
+  .table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879; /* Add a thicker border to the last row */
+  }
+  .table tbody tr:hover {
+    background-color: #f1f1f1; /* Color when hovering over a row */
+  }
+  select {
+    padding: .5em;
+    border-radius: .25em;
+    background-color: #f8f8f8;
+  }
+
+  select option {
+    padding: .5em;
+  }

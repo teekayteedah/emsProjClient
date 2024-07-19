@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+}
+/*nav {*/
+/*  background-color: #333;*/
+/*  !*padding: 10px 0;*!*/
+/*  !*padding: 20px;*!*/
+/*  font-size: 20px;*/
+/*  font-weight: 600;*/
+/*  position: fixed;*/
+/*  width: 100%;*/
+/*  top: 0;*/
+/*}*/
+body{
+  margin-top: 7%;
+  font-family: Arial, sans-serif;
+  margin: 70px;
+  padding: 0;
+  background-image: url('./assets/image\ \(1\).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .content{
+  margin-top: 10%;
+}
+.container{
+  background-color: black;
+} */

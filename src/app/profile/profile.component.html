@@ -1,0 +1,20 @@
+<div class="container"  *ngIf ="profileInfo?.ourUsers?.email === 'miya@gmail.com'" >
+
+  <p *ngIf="errorMessage" class="error-message">{{errorMessage}}</p>
+  <h2>Profile Information</h2>
+  <p>First Name: {{profileInfo?.ourUsers?.firstName}}</p>
+  <p>Last Name: {{profileInfo?.ourUsers?.lastName}}</p>
+  <p>Email: {{profileInfo?.ourUsers?.email}}</p>
+  <p>Phone Number: {{profileInfo?.ourUsers?.phoneNumber}}</p>
+  <p>Address: {{profileInfo?.ourUsers?.address}}</p>
+  <p>Gender: {{profileInfo?.ourUsers?.gender}}</p>
+  <p>Role: {{profileInfo?.ourUsers?.role}}</p>
+  <button *ngIf ="profileInfo?.ourUsers?.role === 'ADMIN'"  (click)="updateProfile(profileInfo?.ourUsers?.id)">Update Profile</button>
+   <br>
+  <button *ngIf ="profileInfo?.ourUsers?.role === 'ADMIN'"  (click)="goToUsers()">Users List</button>
+  
+  
+</div>
+ <div class="container">
+  <button  (click)="goToDashBoard()">Back</button>
+</div>

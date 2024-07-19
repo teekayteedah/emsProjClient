@@ -1,0 +1,85 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  .table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+.table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e9ecef;
+  }
+
+  .heading {
+    background-color: #007bff; /* Example background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for spacing */
+    text-align: center; /* Center-align text */
+  }
+  th {
+    text-align: left;
+  }
+  /* component-name.component.css */
+
+  
+  .table img {
+    max-width: 100%; /* Makes the image responsive within its container */
+    height: 30; /* Maintains aspect ratio */
+    display: block; /* Ensures proper display as a block element */
+     /* Centers the image horizontally */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  }
+  .table-image {
+    height: 500px; /* Adjust the height as needed */
+    width: 100%; /* Makes the image responsive and full-width */
+  }
+  .container {
+    max-width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color:aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .reg-button{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reg-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .update-button{
+    background-color: #007bff;
+    padding: 9px;
+    margin: 0px 2px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
